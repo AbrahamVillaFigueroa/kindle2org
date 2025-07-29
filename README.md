@@ -1,5 +1,4 @@
 # kindle2org
-#### Video Demo: https://youtu.be/IJXg0mhJivQ
 #### Description
 kindle2org is a  Python program that takes the notes, highlights and bookmarks stored in an Amazon Kindle and transforms them into an Org document that is more organized and that is easier to work with.
 
