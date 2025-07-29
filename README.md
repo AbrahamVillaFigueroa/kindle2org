@@ -49,5 +49,5 @@ The most common thirty-two-bar song form in American twentieth-century popular m
 - Location 19, page 2, made on Sunday, June 28, 2020 9:07:00 PM
 ~~~
 
-**TRICK WITH ORG TAGS.** Beacuse the text of Kindle annotations is transform into an Org heading, you can write at the end of your note tags in Org format that will be propery formatted. So for example, if you write ":music:jazz:criticism:" at the end of an annotation, kindle2org will properly put it at the end of a subheading in the Org document. This can be useful for organizing your highlights in a more precise manner.
+**TRICK WITH ORG TAGS.** Beacuse the text of the Kindle's annotations is transformed into an Org heading, you can write at the end of your note tags in Org format that will be propery formatted. So for example, if you write ":music:jazz:criticism:" at the end of an annotation, kindle2org will properly put it at the end of a subheading in the Org document. This can be useful for organizing your highlights in a more precise manner.
 
