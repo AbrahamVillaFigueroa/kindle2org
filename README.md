@@ -1,8 +1,10 @@
 # kindle2org
-#### Description
+## Description
 kindle2org is a  Python program that takes the notes, highlights and bookmarks stored in an Amazon Kindle and transforms them into an Org document that is more organized and that is easier to work with.
 
-The program takes a standard "My Clippings.txt" file from the Amazon Kindle. It must have the standard format to work properly. Then it produces an Org Mode file with all its contents organized.
+The program takes a standard "My Clippings.txt" file from the Amazon Kindle. Then it produces an Org Mode file with all its contents organized.
+
+## How to use
 
 To use it, write in the terminal:
 
@@ -15,7 +17,9 @@ For example:
 $ python kindle2org.py "My Clippings.txt" my-clippings.org
 ~~~
 
-In the Org file, a header will be created with a title and a date of import.
+## Structure of the output file
+
+In the output Org file, a header will be created with a title and a date of import.
 
 There will be as many headings as books are quoted in your clippings file.
 
@@ -48,5 +52,9 @@ The most common thirty-two-bar song form in American twentieth-century popular m
 - Location 19, page 2, made on Sunday, June 28, 2020 9:07:00 PM
 ~~~
 
-**TRICK WITH ORG TAGS.** Beacuse the text of the Kindle's annotations is transformed into an Org heading, you can write at the end of your note tags in Org format that will be propery formatted. So for example, if you write ":music:jazz:criticism:" at the end of an annotation, kindle2org will properly put it at the end of a subheading in the Org document. This can be useful for organizing your highlights in a more precise manner.
+## Important note
+"My Clippings.txt" file must have the standard format for this script to work properly. 
+
+## Trick for Org Tags 
+Beacuse the text of the Kindle's annotations is transformed into an Org heading, you can write at the end of your note tags in Org format that will be propery formatted. So for example, if you write ":music:jazz:criticism:" at the end of an annotation, kindle2org will properly put it at the end of a subheading in the Org document. This can be useful for organizing your highlights in a more precise manner.
 
