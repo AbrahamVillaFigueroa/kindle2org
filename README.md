@@ -2,7 +2,7 @@
 ## Description
 kindle2org is a  Python program that takes the notes, highlights and bookmarks stored in an Amazon Kindle and transforms them into an Org document that is more organized and that is easier to work with.
 
-The program takes a standard "My Clippings.txt" file from the Amazon Kindle. Then it produces an Org Mode file with all its contents organized.
+The program uses as input a standard "My Clippings.txt" file from the Amazon Kindle. Then it produces an Org Mode file with all its contents organized.
 
 ## How to use
 
